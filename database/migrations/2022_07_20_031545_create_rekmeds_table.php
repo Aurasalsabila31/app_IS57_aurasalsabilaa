@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('rekmeds', function (Blueprint $table) {
             $table->id();
             $table->string('no_rekmed')->unique();
-            $table->string('nik');
+            $table->string('niks_id');
             $table->date('tanggal_berobat');
             $table->string('dianogsa');
             $table->string('kode_obat');
