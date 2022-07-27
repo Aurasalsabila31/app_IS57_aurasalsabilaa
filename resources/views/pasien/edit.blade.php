@@ -43,37 +43,37 @@
                   <div class="form-group row">
                     <label for="inputEmail3" class="col-sm-2 col-form-label">NIK</label>
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" value="{{$pasien->kode}}" id="inputEmail3" name="kode">
+                      <input type="text" class="form-control" value="{{$pasien->nik}}" id="inputEmail3" name="nik">
                     </div>
                   </div>
                   <div class="form-group row">
                     <label for="inputPassword3" class="col-sm-2 col-form-label">Nama</label>
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" value="{{$pasien->nama}}" id="inputPassword3" name="jabatan">
+                      <input type="text" class="form-control" value="{{$pasien->nama}}" id="inputPassword3" name="nama">
                     </div>
                   </div>
                   <div class="form-group row">
                     <label for="inputEmail3" class="col-sm-2 col-form-label">Tanggal Lahir</label>
                     <div class="col-sm-10">
-                      <input type="date" class="form-control" value="{{$pasien->tanggal_lahir}}" id="inputEmail3" name="kode">
+                      <input type="date" class="form-control" value="{{$pasien->tanggal_lahir}}" id="inputEmail3" name="tanggal_lahir">
                     </div>
                   </div>
                   <div class="form-group row">
                     <label for="inputPassword3" class="col-sm-2 col-form-label">Alamat</label>
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" value="{{$pasien->alamat}}" id="inputPassword3" name="jabatan">
+                      <input type="text" class="form-control" value="{{$pasien->alamat}}" id="inputPassword3" name="alamat">
                     </div>
                   </div>
                   <div class="form-group row">
                     <label for="inputEmail3" class="col-sm-2 col-form-label">Jenis</label>
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" value="{{$pasien->jenis}}" id="inputEmail3" name="kode">
+                      <input type="text" class="form-control" value="{{$pasien->jenis}}" id="inputEmail3" name="jenis">
                     </div>
                   </div>
                   <div class="form-group row">
                     <label for="inputPassword3" class="col-sm-2 col-form-label">Jenis Kelamin</label>
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" value="{{$pasien->jenis_kelamin}}" id="inputPassword3" name="jabatan">
+                      <input type="text" class="form-control" value="{{$pasien->jenis_kelamin}}" id="inputPassword3" name="jenis_kelamin">
                     </div>
                   </div>
 

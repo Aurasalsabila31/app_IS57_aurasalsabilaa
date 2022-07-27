@@ -9,6 +9,6 @@ class Rekmed extends Model
 {
     use HasFactory;
     public function pasiens(){
-        return $this->hasOne(Pasien::class,'id','niks_id');
+        return $this->hasOne(Pasien::class,'id','');
     }
 }

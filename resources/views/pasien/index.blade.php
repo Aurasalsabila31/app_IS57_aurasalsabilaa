@@ -74,7 +74,7 @@
                                         <h5 class="modal-title" id="exampleModalLabel">Peringatan</h5>
                                       </div>
                                       <div class="modal-body">
-                                        Yakin ingin menghapus pasien <b>{{$item->nik}}-{{$item->pasien}}</b> ?
+                                        Yakin ingin menghapus pasien <b>{{$item->nama}}-{{$item->pasien}}</b> ?
                                       </div>
                                       <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>

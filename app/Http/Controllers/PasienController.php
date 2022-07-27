@@ -7,6 +7,7 @@ use App\Models\Rekmed;
 
 use Illuminate\Http\Request;
 
+
 class PasienController extends Controller
 {
     /**
@@ -18,7 +19,8 @@ class PasienController extends Controller
     {
         $this->middleware('auth');
     }
-     public function index()
+    
+    public function index()
     {
         // $this->authorize('create',pasien::class);
         $nomor = 1;
@@ -79,6 +81,7 @@ class PasienController extends Controller
     {
         $pasien = Pasien::find($id);
         return view('pasien.edit',compact('pasien'));
+        
     }
 
     /**

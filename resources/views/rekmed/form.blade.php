@@ -49,8 +49,15 @@
                     <label for="inputPassword3" class="col-sm-2 col-form-label">Nik</label>
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="inputPassword3" name="nik">
+                      {{-- <select name="nik" class="form-control" id="">
+                        <option value="">-Pilih Nik-</option>
+                        @foreach ($pasien as $item)
+                          <option value="{{$item->id}}">{{$item->nik}}</option>
+                        @endforeach
+                        
+                      </select> --}}
                     </div>
-                  </div>
+  
                 </div>
                 <div class="form-group row">
                     <label for="inputEmail3" class="col-sm-2 col-form-label">Tanggal Berobat</label>

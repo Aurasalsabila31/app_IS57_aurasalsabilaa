@@ -51,7 +51,6 @@
                       <input type="text" class="form-control" id="inputPassword3" name="nama">
                     </div>
                   </div>
-                </div>
                 <div class="form-group row">
                     <label for="inputEmail3" class="col-sm-2 col-form-label">Tanggal Lahir</label>
                     <div class="col-sm-10">

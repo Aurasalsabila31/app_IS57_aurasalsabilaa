@@ -32,8 +32,8 @@ class RekmedController extends Controller
      */
     public function create()
     {
-        $rekmed = Rekmed::all();
-        return view('rekmed.form',compact('rekmed'));
+        $pasien = pasien::all();
+        return view('rekmed.form',compact('pasien'));
     }
 
     /**
@@ -47,14 +47,14 @@ class RekmedController extends Controller
         $rek = new Rekmed;
 
         $rek->no_rekmed = $request->no_rekmed;
-        $rek->niks_id = $request->nik;
+        $rek->niks = $request->nik;
         $rek->tanggal_berobat = $request->tanggal_berobat;
         $rek->dianogsa = $request->dianogsa;
         $rek->kode_obat = $request->kode_obat;
         $rek->transaksi = $request->transaksi;
         $rek->save();
 
-        return redirect('/pasien');
+        return redirect('/rekmed');
     }
 
     /**
@@ -93,7 +93,7 @@ class RekmedController extends Controller
         $rekmed = Rekmed::find($id);
 
         $rekmed->no_rekmed = $request->no_rekmed;
-        $rekmed->niks_id = $request->nik;
+        $rekmed->nik = $request->nik;
         $rekmed->tanggal_berobat = $request->tanggal_berobat;
         $rekmed->dianogsa = $request->dianogsa;
         $rekmed->kode_obat = $request->kode_obat;
