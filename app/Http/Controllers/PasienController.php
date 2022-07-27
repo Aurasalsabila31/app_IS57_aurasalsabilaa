@@ -22,7 +22,7 @@ class PasienController extends Controller
     
     public function index()
     {
-        // $this->authorize('create',pasien::class);
+        //  $this->authorize('create',pasien::class);
         $nomor = 1;
         $pasien = Pasien::all();
         return view('pasien.index',compact('nomor','pasien'));
